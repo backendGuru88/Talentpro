@@ -502,7 +502,7 @@ footer{
 @media only screen and (max-width: 768px) {
     body, html {
         font-size: 14px; 
-        width: 95%;
+        width: 100%;
     }
 
     header {
@@ -548,6 +548,7 @@ footer{
         flex-direction: column;
         text-align: center;
         gap: 20px;
+        height: 120vh;
     }
 
     #main1, #main2 {
@@ -567,7 +568,12 @@ footer{
         font-size: 14px;
         margin: 0 20px;
     }
-
+    #section1{
+       height : 100vh;
+    }
+    #section2{
+        height: 100vh;
+    }
     #section1, #section2 {
         flex-direction: column;
         align-items: center;
@@ -631,7 +637,7 @@ footer{
     /* Further reduce font size and make elements more compact */
     body, html {
         font-size: 12px;
-        width: 95%;
+        width: 100%;
     }
 
     header{
@@ -674,6 +680,9 @@ footer{
     #header-content span {
         font-size: 60px;
     }
+    #main{
+        height: 120vh;
+    }
     #main2{
         width:  50%;
         height: 100%;
@@ -704,12 +713,15 @@ footer{
         height: 450px;
         margin-right: 10px;
     }
+    #section2{
+      height: 100vh;
+    }
     #section1{
         margin-top: 0px;
         margin-bottom: 0px;
         display: flex;
         flex-direction: column;
-        height: 157vh;
+        height: 100vh;
     }
     #section1-content{
         align-items: center;
@@ -776,7 +788,7 @@ footer{
     }
     footer{
         width: 100%;
-        height: 20vh;
+        height: 40vh;
         /* gap: 10px; */
     }
 
@@ -807,7 +819,7 @@ footer{
     }
     body {
         font-size: 14px; /* Reduce base font size */
-        width: 95%;
+        width: 100%;
     }
     header {
         /* padding: 20px; */
@@ -860,6 +872,7 @@ footer{
         flex-direction: column; /* Stack content vertically */
         gap: 20px;
         padding: 10px; /* Add padding to prevent content from touching edges */
+        height: 120vh;
     }
 
     #main1 {
